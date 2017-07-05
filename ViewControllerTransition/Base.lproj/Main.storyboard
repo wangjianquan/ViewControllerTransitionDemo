@@ -43,8 +43,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsq-B8-o6D">
-                                <rect key="frame" x="164" y="349" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="172" y="349" width="30" height="30"/>
+                                <state key="normal" title="Top"/>
+                                <connections>
+                                    <action selector="Top" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2T-SN-XAB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFL-V2-LzU">
                                 <rect key="frame" x="158" y="249" width="58" height="30"/>

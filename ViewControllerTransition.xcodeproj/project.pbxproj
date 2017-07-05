@@ -12,17 +12,25 @@
 		7C7DDCD51F023A3F0075B267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDCD31F023A3F0075B267 /* Main.storyboard */; };
 		7C7DDCD71F023A3F0075B267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDCD61F023A3F0075B267 /* Assets.xcassets */; };
 		7C7DDCDA1F023A3F0075B267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDCD81F023A3F0075B267 /* LaunchScreen.storyboard */; };
-		7C7DDCE71F023C910075B267 /* DissolveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCE61F023C910075B267 /* DissolveAnimator.swift */; };
 		7C7DDCF11F0245DA0075B267 /* DissolveFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCEF1F0245DA0075B267 /* DissolveFirstVC.swift */; };
 		7C7DDCF21F0245DA0075B267 /* DissolveSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCF01F0245DA0075B267 /* DissolveSecondVC.swift */; };
 		7C7DDCF41F0245FF0075B267 /* BottomFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCF31F0245FF0075B267 /* BottomFirstVC.swift */; };
 		7C7DDCF61F0246130075B267 /* BottomSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCF51F0246130075B267 /* BottomSecondVC.swift */; };
-		7C7DDCF81F0247110075B267 /* FromRightAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCF71F0247110075B267 /* FromRightAnimator.swift */; };
-		7C7DDCFA1F02495D0075B267 /* FromBottomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCF91F02495D0075B267 /* FromBottomAnimator.swift */; };
 		7C7DDCFE1F0359B80075B267 /* SwipeFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCFD1F0359B80075B267 /* SwipeFirstVC.swift */; };
 		7C7DDD001F0359CC0075B267 /* SwipeSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDCFF1F0359CC0075B267 /* SwipeSecondVC.swift */; };
 		7C7DDD021F035F660075B267 /* FromRightFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD011F035F660075B267 /* FromRightFirstVC.swift */; };
 		7C7DDD041F035F780075B267 /* FromRightSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD031F035F780075B267 /* FromRightSecondVC.swift */; };
+		7C7DDDC71F0CCDC50075B267 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDC61F0CCDC50075B267 /* BaseViewController.swift */; };
+		7C7DDDCC1F0CD3AF0075B267 /* FromTopFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */; };
+		7C7DDDCE1F0CD43D0075B267 /* FromTopSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */; };
+		7C7DDDD41F0CE2690075B267 /* PopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD21F0CE2690075B267 /* PopViewController.storyboard */; };
+		7C7DDDD51F0CE2690075B267 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD31F0CE2690075B267 /* PopViewController.swift */; };
+		7C7DDDD71F0CE2850075B267 /* WjPresentationCoutro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD61F0CE2850075B267 /* WjPresentationCoutro.swift */; };
+		7C7DDDD91F0CE3030075B267 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD81F0CE3030075B267 /* PopAnimation.swift */; };
+		7C7DDDDF1F0CE5BE0075B267 /* FromTopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDB1F0CE5BE0075B267 /* FromTopAnimator.swift */; };
+		7C7DDDE01F0CE5BE0075B267 /* FromBottomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */; };
+		7C7DDDE11F0CE5BE0075B267 /* FromRightAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */; };
+		7C7DDDE21F0CE5BE0075B267 /* DissolveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,17 +41,25 @@
 		7C7DDCD61F023A3F0075B267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7DDCD91F023A3F0075B267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C7DDCDB1F023A3F0075B267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C7DDCE61F023C910075B267 /* DissolveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveAnimator.swift; sourceTree = "<group>"; };
 		7C7DDCEF1F0245DA0075B267 /* DissolveFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveFirstVC.swift; sourceTree = "<group>"; };
 		7C7DDCF01F0245DA0075B267 /* DissolveSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveSecondVC.swift; sourceTree = "<group>"; };
 		7C7DDCF31F0245FF0075B267 /* BottomFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomFirstVC.swift; sourceTree = "<group>"; };
 		7C7DDCF51F0246130075B267 /* BottomSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSecondVC.swift; sourceTree = "<group>"; };
-		7C7DDCF71F0247110075B267 /* FromRightAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightAnimator.swift; sourceTree = "<group>"; };
-		7C7DDCF91F02495D0075B267 /* FromBottomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromBottomAnimator.swift; sourceTree = "<group>"; };
 		7C7DDCFD1F0359B80075B267 /* SwipeFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeFirstVC.swift; sourceTree = "<group>"; };
 		7C7DDCFF1F0359CC0075B267 /* SwipeSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeSecondVC.swift; sourceTree = "<group>"; };
 		7C7DDD011F035F660075B267 /* FromRightFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightFirstVC.swift; sourceTree = "<group>"; };
 		7C7DDD031F035F780075B267 /* FromRightSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightSecondVC.swift; sourceTree = "<group>"; };
+		7C7DDDC61F0CCDC50075B267 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopFirstVC.swift; sourceTree = "<group>"; };
+		7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopSecondVC.swift; sourceTree = "<group>"; };
+		7C7DDDD21F0CE2690075B267 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
+		7C7DDDD31F0CE2690075B267 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		7C7DDDD61F0CE2850075B267 /* WjPresentationCoutro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjPresentationCoutro.swift; sourceTree = "<group>"; };
+		7C7DDDD81F0CE3030075B267 /* PopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimation.swift; sourceTree = "<group>"; };
+		7C7DDDDB1F0CE5BE0075B267 /* FromTopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopAnimator.swift; sourceTree = "<group>"; };
+		7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromBottomAnimator.swift; sourceTree = "<group>"; };
+		7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightAnimator.swift; sourceTree = "<group>"; };
+		7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,7 @@
 			children = (
 				7C7DDCE51F023BF80075B267 /* Tools */,
 				7C7DDCCF1F023A3F0075B267 /* AppDelegate.swift */,
+				7C7DDDC61F0CCDC50075B267 /* BaseViewController.swift */,
 				7C7DDCD11F023A3F0075B267 /* ViewController.swift */,
 				7C7DDCEA1F0245460075B267 /* Controllers */,
 				7C7DDCD31F023A3F0075B267 /* Main.storyboard */,
@@ -91,9 +108,7 @@
 		7C7DDCE51F023BF80075B267 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				7C7DDCE61F023C910075B267 /* DissolveAnimator.swift */,
-				7C7DDCF71F0247110075B267 /* FromRightAnimator.swift */,
-				7C7DDCF91F02495D0075B267 /* FromBottomAnimator.swift */,
+				7C7DDDDA1F0CE5870075B267 /* Animators */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -101,6 +116,8 @@
 		7C7DDCEA1F0245460075B267 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C7DDDD11F0CE2370075B267 /* PopView */,
+				7C7DDDCA1F0CD37B0075B267 /* Top */,
 				7C7DDCEB1F0245AC0075B267 /* Right */,
 				7C7DDCEC1F0245AC0075B267 /* Swipe */,
 				7C7DDCED1F0245AC0075B267 /* Dissolve */,
@@ -143,6 +160,37 @@
 				7C7DDCF51F0246130075B267 /* BottomSecondVC.swift */,
 			);
 			path = Bottom;
+			sourceTree = "<group>";
+		};
+		7C7DDDCA1F0CD37B0075B267 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */,
+				7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */,
+			);
+			name = Top;
+			sourceTree = "<group>";
+		};
+		7C7DDDD11F0CE2370075B267 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDD21F0CE2690075B267 /* PopViewController.storyboard */,
+				7C7DDDD31F0CE2690075B267 /* PopViewController.swift */,
+				7C7DDDD61F0CE2850075B267 /* WjPresentationCoutro.swift */,
+				7C7DDDD81F0CE3030075B267 /* PopAnimation.swift */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		7C7DDDDA1F0CE5870075B267 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDDB1F0CE5BE0075B267 /* FromTopAnimator.swift */,
+				7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */,
+				7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */,
+				7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */,
+			);
+			path = Animators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7DDCDA1F023A3F0075B267 /* LaunchScreen.storyboard in Resources */,
+				7C7DDDD41F0CE2690075B267 /* PopViewController.storyboard in Resources */,
 				7C7DDCD71F023A3F0075B267 /* Assets.xcassets in Resources */,
 				7C7DDCD51F023A3F0075B267 /* Main.storyboard in Resources */,
 			);
@@ -218,18 +267,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7DDDCC1F0CD3AF0075B267 /* FromTopFirstVC.swift in Sources */,
 				7C7DDD021F035F660075B267 /* FromRightFirstVC.swift in Sources */,
+				7C7DDDD51F0CE2690075B267 /* PopViewController.swift in Sources */,
 				7C7DDCD21F023A3F0075B267 /* ViewController.swift in Sources */,
 				7C7DDCF21F0245DA0075B267 /* DissolveSecondVC.swift in Sources */,
-				7C7DDCFA1F02495D0075B267 /* FromBottomAnimator.swift in Sources */,
+				7C7DDDE11F0CE5BE0075B267 /* FromRightAnimator.swift in Sources */,
 				7C7DDCD01F023A3F0075B267 /* AppDelegate.swift in Sources */,
+				7C7DDDC71F0CCDC50075B267 /* BaseViewController.swift in Sources */,
 				7C7DDD041F035F780075B267 /* FromRightSecondVC.swift in Sources */,
 				7C7DDCF11F0245DA0075B267 /* DissolveFirstVC.swift in Sources */,
+				7C7DDDE01F0CE5BE0075B267 /* FromBottomAnimator.swift in Sources */,
+				7C7DDDDF1F0CE5BE0075B267 /* FromTopAnimator.swift in Sources */,
 				7C7DDCF41F0245FF0075B267 /* BottomFirstVC.swift in Sources */,
-				7C7DDCE71F023C910075B267 /* DissolveAnimator.swift in Sources */,
+				7C7DDDE21F0CE5BE0075B267 /* DissolveAnimator.swift in Sources */,
 				7C7DDCFE1F0359B80075B267 /* SwipeFirstVC.swift in Sources */,
+				7C7DDDD71F0CE2850075B267 /* WjPresentationCoutro.swift in Sources */,
+				7C7DDDCE1F0CD43D0075B267 /* FromTopSecondVC.swift in Sources */,
+				7C7DDDD91F0CE3030075B267 /* PopAnimation.swift in Sources */,
 				7C7DDCF61F0246130075B267 /* BottomSecondVC.swift in Sources */,
-				7C7DDCF81F0247110075B267 /* FromRightAnimator.swift in Sources */,
 				7C7DDD001F0359CC0075B267 /* SwipeSecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +450,7 @@
 				7C7DDCE01F023A3F0075B267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

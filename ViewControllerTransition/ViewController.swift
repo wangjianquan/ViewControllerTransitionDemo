@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     fileprivate lazy var fromRightFirstVC: FromRightFirstVC = FromRightFirstVC()
     
+    fileprivate lazy var topVC: FromTopFirstVC = FromTopFirstVC()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -45,6 +47,10 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func Top() {
+        
+        navigationController?.pushViewController(topVC, animated: true)
+    }
     
     
 

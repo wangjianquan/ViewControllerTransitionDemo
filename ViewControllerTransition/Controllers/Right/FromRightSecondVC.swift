@@ -8,16 +8,16 @@
 
 import UIKit
 
-class FromRightSecondVC: UIViewController {
+class FromRightSecondVC: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.blue
+
         updatePreferredContentSizeWithTraitCollection(traitCollection: self.traitCollection)
         
     }
     
-  
+    
     override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
         super.willTransition(to: newCollection, with: coordinator)
     }
