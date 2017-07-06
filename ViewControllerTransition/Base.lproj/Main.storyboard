@@ -56,16 +56,25 @@
                                     <action selector="Dissolve" destination="BYZ-38-t0r" eventType="touchUpInside" id="wIC-wY-BHi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glx-kZ-gG4">
+                                <rect key="frame" x="157.5" y="400" width="60" height="30"/>
+                                <state key="normal" title="Adaptive"/>
+                                <connections>
+                                    <action selector="Adaptive" destination="BYZ-38-t0r" eventType="touchUpInside" id="0XL-bs-Idr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="zRg-2m-KMP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="85" id="2vm-DU-wWA"/>
                             <constraint firstItem="BFL-V2-LzU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Eu-AM-DSK"/>
                             <constraint firstItem="6nW-au-ntj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4sM-PX-vV1"/>
+                            <constraint firstItem="glx-kZ-gG4" firstAttribute="top" secondItem="nsq-B8-o6D" secondAttribute="bottom" constant="21" id="8yA-mN-mUC"/>
                             <constraint firstItem="nsq-B8-o6D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="90S-4m-gy1"/>
                             <constraint firstItem="6nW-au-ntj" firstAttribute="top" secondItem="BFL-V2-LzU" secondAttribute="bottom" constant="20" id="9ex-9u-XmV"/>
                             <constraint firstItem="nsq-B8-o6D" firstAttribute="top" secondItem="6nW-au-ntj" secondAttribute="bottom" constant="20" id="IAG-fQ-nCw"/>
                             <constraint firstItem="zRg-2m-KMP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uso-pp-UYo"/>
+                            <constraint firstItem="glx-kZ-gG4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XIx-ry-PEd"/>
                             <constraint firstItem="wPO-TG-Vof" firstAttribute="top" secondItem="zRg-2m-KMP" secondAttribute="bottom" constant="20" id="aeZ-KS-ilv"/>
                             <constraint firstItem="BFL-V2-LzU" firstAttribute="top" secondItem="wPO-TG-Vof" secondAttribute="bottom" constant="20" id="jeH-T8-TiT"/>
                             <constraint firstItem="wPO-TG-Vof" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n1V-PQ-Tym"/>

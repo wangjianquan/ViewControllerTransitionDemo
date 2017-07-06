@@ -21,8 +21,6 @@
 		7C7DDD021F035F660075B267 /* FromRightFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD011F035F660075B267 /* FromRightFirstVC.swift */; };
 		7C7DDD041F035F780075B267 /* FromRightSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD031F035F780075B267 /* FromRightSecondVC.swift */; };
 		7C7DDDC71F0CCDC50075B267 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDC61F0CCDC50075B267 /* BaseViewController.swift */; };
-		7C7DDDCC1F0CD3AF0075B267 /* FromTopFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */; };
-		7C7DDDCE1F0CD43D0075B267 /* FromTopSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */; };
 		7C7DDDD41F0CE2690075B267 /* PopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD21F0CE2690075B267 /* PopViewController.storyboard */; };
 		7C7DDDD51F0CE2690075B267 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD31F0CE2690075B267 /* PopViewController.swift */; };
 		7C7DDDD71F0CE2850075B267 /* WjPresentationCoutro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDD61F0CE2850075B267 /* WjPresentationCoutro.swift */; };
@@ -31,6 +29,11 @@
 		7C7DDDE01F0CE5BE0075B267 /* FromBottomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */; };
 		7C7DDDE11F0CE5BE0075B267 /* FromRightAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */; };
 		7C7DDDE21F0CE5BE0075B267 /* DissolveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */; };
+		7C7DDDE61F0DD9F20075B267 /* AdaptiveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDE51F0DD9F20075B267 /* AdaptiveAnimator.swift */; };
+		7C7DDDEE1F0DEC820075B267 /* AdaptiveSecondControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDEC1F0DEC820075B267 /* AdaptiveSecondControl.swift */; };
+		7C7DDDEF1F0DEC820075B267 /* AdaptiveFirstControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDED1F0DEC820075B267 /* AdaptiveFirstControl.swift */; };
+		7C7DDDF21F0DECB80075B267 /* FromTopFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDF01F0DECB80075B267 /* FromTopFirstVC.swift */; };
+		7C7DDDF31F0DECB80075B267 /* FromTopSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDF11F0DECB80075B267 /* FromTopSecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +53,6 @@
 		7C7DDD011F035F660075B267 /* FromRightFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightFirstVC.swift; sourceTree = "<group>"; };
 		7C7DDD031F035F780075B267 /* FromRightSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightSecondVC.swift; sourceTree = "<group>"; };
 		7C7DDDC61F0CCDC50075B267 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopFirstVC.swift; sourceTree = "<group>"; };
-		7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopSecondVC.swift; sourceTree = "<group>"; };
 		7C7DDDD21F0CE2690075B267 /* PopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopViewController.storyboard; sourceTree = "<group>"; };
 		7C7DDDD31F0CE2690075B267 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		7C7DDDD61F0CE2850075B267 /* WjPresentationCoutro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WjPresentationCoutro.swift; sourceTree = "<group>"; };
@@ -60,6 +61,11 @@
 		7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromBottomAnimator.swift; sourceTree = "<group>"; };
 		7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromRightAnimator.swift; sourceTree = "<group>"; };
 		7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveAnimator.swift; sourceTree = "<group>"; };
+		7C7DDDE51F0DD9F20075B267 /* AdaptiveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveAnimator.swift; sourceTree = "<group>"; };
+		7C7DDDEC1F0DEC820075B267 /* AdaptiveSecondControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveSecondControl.swift; sourceTree = "<group>"; };
+		7C7DDDED1F0DEC820075B267 /* AdaptiveFirstControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveFirstControl.swift; sourceTree = "<group>"; };
+		7C7DDDF01F0DECB80075B267 /* FromTopFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopFirstVC.swift; sourceTree = "<group>"; };
+		7C7DDDF11F0DECB80075B267 /* FromTopSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromTopSecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 		7C7DDCEA1F0245460075B267 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C7DDDE71F0DEC070075B267 /* Adaptive */,
 				7C7DDDD11F0CE2370075B267 /* PopView */,
 				7C7DDDCA1F0CD37B0075B267 /* Top */,
 				7C7DDCEB1F0245AC0075B267 /* Right */,
@@ -165,10 +172,10 @@
 		7C7DDDCA1F0CD37B0075B267 /* Top */ = {
 			isa = PBXGroup;
 			children = (
-				7C7DDDCB1F0CD3AF0075B267 /* FromTopFirstVC.swift */,
-				7C7DDDCD1F0CD43D0075B267 /* FromTopSecondVC.swift */,
+				7C7DDDF01F0DECB80075B267 /* FromTopFirstVC.swift */,
+				7C7DDDF11F0DECB80075B267 /* FromTopSecondVC.swift */,
 			);
-			name = Top;
+			path = Top;
 			sourceTree = "<group>";
 		};
 		7C7DDDD11F0CE2370075B267 /* PopView */ = {
@@ -186,11 +193,21 @@
 			isa = PBXGroup;
 			children = (
 				7C7DDDDB1F0CE5BE0075B267 /* FromTopAnimator.swift */,
+				7C7DDDE51F0DD9F20075B267 /* AdaptiveAnimator.swift */,
 				7C7DDDDC1F0CE5BE0075B267 /* FromBottomAnimator.swift */,
 				7C7DDDDD1F0CE5BE0075B267 /* FromRightAnimator.swift */,
 				7C7DDDDE1F0CE5BE0075B267 /* DissolveAnimator.swift */,
 			);
 			path = Animators;
+			sourceTree = "<group>";
+		};
+		7C7DDDE71F0DEC070075B267 /* Adaptive */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDED1F0DEC820075B267 /* AdaptiveFirstControl.swift */,
+				7C7DDDEC1F0DEC820075B267 /* AdaptiveSecondControl.swift */,
+			);
+			path = Adaptive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7DDDCC1F0CD3AF0075B267 /* FromTopFirstVC.swift in Sources */,
 				7C7DDD021F035F660075B267 /* FromRightFirstVC.swift in Sources */,
 				7C7DDDD51F0CE2690075B267 /* PopViewController.swift in Sources */,
+				7C7DDDF31F0DECB80075B267 /* FromTopSecondVC.swift in Sources */,
 				7C7DDCD21F023A3F0075B267 /* ViewController.swift in Sources */,
+				7C7DDDF21F0DECB80075B267 /* FromTopFirstVC.swift in Sources */,
 				7C7DDCF21F0245DA0075B267 /* DissolveSecondVC.swift in Sources */,
 				7C7DDDE11F0CE5BE0075B267 /* FromRightAnimator.swift in Sources */,
 				7C7DDCD01F023A3F0075B267 /* AppDelegate.swift in Sources */,
@@ -278,15 +296,17 @@
 				7C7DDD041F035F780075B267 /* FromRightSecondVC.swift in Sources */,
 				7C7DDCF11F0245DA0075B267 /* DissolveFirstVC.swift in Sources */,
 				7C7DDDE01F0CE5BE0075B267 /* FromBottomAnimator.swift in Sources */,
+				7C7DDDE61F0DD9F20075B267 /* AdaptiveAnimator.swift in Sources */,
 				7C7DDDDF1F0CE5BE0075B267 /* FromTopAnimator.swift in Sources */,
 				7C7DDCF41F0245FF0075B267 /* BottomFirstVC.swift in Sources */,
 				7C7DDDE21F0CE5BE0075B267 /* DissolveAnimator.swift in Sources */,
 				7C7DDCFE1F0359B80075B267 /* SwipeFirstVC.swift in Sources */,
 				7C7DDDD71F0CE2850075B267 /* WjPresentationCoutro.swift in Sources */,
-				7C7DDDCE1F0CD43D0075B267 /* FromTopSecondVC.swift in Sources */,
 				7C7DDDD91F0CE3030075B267 /* PopAnimation.swift in Sources */,
 				7C7DDCF61F0246130075B267 /* BottomSecondVC.swift in Sources */,
 				7C7DDD001F0359CC0075B267 /* SwipeSecondVC.swift in Sources */,
+				7C7DDDEF1F0DEC820075B267 /* AdaptiveFirstControl.swift in Sources */,
+				7C7DDDEE1F0DEC820075B267 /* AdaptiveSecondControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

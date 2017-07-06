@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     fileprivate lazy var fromRightFirstVC: FromRightFirstVC = FromRightFirstVC()
     
     fileprivate lazy var topVC: FromTopFirstVC = FromTopFirstVC()
-    
+    fileprivate lazy var adaptiveVC : AdaptiveFirstControl = AdaptiveFirstControl()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     }
     @IBAction func Swipe() {
-        navigationController?.pushViewController(swipeFirstVC, animated: true)
+//        navigationController?.pushViewController(swipeFirstVC, animated: true)
         
     }
     
@@ -52,6 +52,10 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(topVC, animated: true)
     }
     
+    @IBAction func Adaptive() {
+        navigationController?.pushViewController(adaptiveVC, animated: true)
+
+    }
     
 
 }
