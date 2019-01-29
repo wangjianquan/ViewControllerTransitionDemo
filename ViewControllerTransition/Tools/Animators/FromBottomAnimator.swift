@@ -43,9 +43,13 @@ class FromBottomAnimator: UIPresentationController {
             
             /**/
     
-            let roundedCornerView = UIView(frame: UIEdgeInsetsInsetRect(presentationWrapperView.bounds, UIEdgeInsetsMake(0, 0, -corner_radius, 0)))
+        let roundedCornerView = UIView(frame: UIEdgeInsetsInsetRect(presentationWrapperView.bounds, UIEdgeInsets(top: 0, left: 0, bottom: -corner_radius, right: 0)))
         
-            roundedCornerView.autoresizingMask = UIViewAutoresizing.flexibleHeight
+        
+
+        
+        
+        roundedCornerView.autoresizingMask = UIView.AutoresizingMask.flexibleHeight
             roundedCornerView.layer.cornerRadius = corner_radius
             roundedCornerView.layer.masksToBounds = true
             

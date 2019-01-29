@@ -31,7 +31,7 @@ class AdaptiveAnimator: UIPresentationController {
         presentationWrapperView.layer.shadowOpacity = 0.63
         presentationWrapperView.layer.shadowRadius = 17
         self.presentationWrappingView = presentationWrapperView
-        presentationWrapperView.autoresizingMask = UIViewAutoresizing.flexibleWidth
+        presentationWrapperView.autoresizingMask = UIView.AutoresizingMask.flexibleWidth
         presentationWrapperView .addSubview(presentedViewControllerView!)
         
         let dismissBtn = UIButton(type: .custom)

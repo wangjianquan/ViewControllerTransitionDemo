@@ -27,7 +27,7 @@ class FromTopAnimator: FromBottomAnimator {
         if view_Y != nil {
             presentedViewControllerFrame?.origin.y = self.view_Y!
         }else{
-                presentedViewControllerFrame?.origin.y = 0
+            presentedViewControllerFrame?.origin.y = 0
         }
 
 

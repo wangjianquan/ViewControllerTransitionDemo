@@ -13,7 +13,7 @@ class FromTopFirstVC: UIViewController {
     let btn = UIButton()
         btn.setTitle("点击试试", for: .normal)
         btn.setTitle("还原", for: .selected)
-        btn.setTitleColor(UIColor.orange, for: UIControlState.normal)
+        btn.setTitleColor(UIColor.orange, for: UIControl.State.normal)
         btn.addTarget(self, action: #selector(titleBtnClick), for: .touchUpInside)
         btn.sizeToFit()
         return btn
@@ -53,7 +53,7 @@ class FromTopFirstVC: UIViewController {
         let toView: FromTopSecondVC = FromTopSecondVC()
         let animator: FromTopAnimator = FromTopAnimator(presentedViewController: toView, presenting: self)
         toView.transitioningDelegate = animator
-        animator.view_Y = 64
+        animator.view_Y = 0
         present(toView, animated: true, completion: nil)
     }
     

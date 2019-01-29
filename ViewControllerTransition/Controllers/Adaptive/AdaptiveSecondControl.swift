@@ -19,10 +19,10 @@ class AdaptiveSecondControl: UIViewController, UIAdaptivePresentationControllerD
         
     }
 
-    func go(sender: UIBarButtonItem) {
+    @objc func go(sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
-    func dismissButtonAction(sender: UIBarButtonItem) {
+    @objc func dismissButtonAction(sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
     override func didReceiveMemoryWarning() {

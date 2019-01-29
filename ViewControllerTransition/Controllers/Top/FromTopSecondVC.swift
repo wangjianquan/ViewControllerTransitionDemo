@@ -27,7 +27,7 @@ class FromTopSecondVC: BaseViewController {
     }
     
     func updatePreferredContentSizeWithTraitCollection(traitCollection: UITraitCollection) {
-        self.preferredContentSize = CGSize(width: self.view.bounds.size.width * 0.65, height: traitCollection.verticalSizeClass == UIUserInterfaceSizeClass.compact ? 270 : 270);
+        self.preferredContentSize = CGSize(width: self.view.bounds.size.width, height: traitCollection.verticalSizeClass == UIUserInterfaceSizeClass.compact ? 270 : 270);
     }
 
     /*

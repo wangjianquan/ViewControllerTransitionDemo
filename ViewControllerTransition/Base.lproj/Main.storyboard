@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kJp-M9-cBe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kJp-M9-cBe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +14,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ViewControllerTransition" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,19 +63,20 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zRg-2m-KMP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="85" id="2vm-DU-wWA"/>
-                            <constraint firstItem="BFL-V2-LzU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Eu-AM-DSK"/>
-                            <constraint firstItem="6nW-au-ntj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4sM-PX-vV1"/>
+                            <constraint firstItem="zRg-2m-KMP" firstAttribute="top" secondItem="pYg-Sf-why" secondAttribute="top" constant="85" id="2vm-DU-wWA"/>
+                            <constraint firstItem="BFL-V2-LzU" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="4Eu-AM-DSK"/>
+                            <constraint firstItem="6nW-au-ntj" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="4sM-PX-vV1"/>
                             <constraint firstItem="glx-kZ-gG4" firstAttribute="top" secondItem="nsq-B8-o6D" secondAttribute="bottom" constant="21" id="8yA-mN-mUC"/>
-                            <constraint firstItem="nsq-B8-o6D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="90S-4m-gy1"/>
+                            <constraint firstItem="nsq-B8-o6D" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="90S-4m-gy1"/>
                             <constraint firstItem="6nW-au-ntj" firstAttribute="top" secondItem="BFL-V2-LzU" secondAttribute="bottom" constant="20" id="9ex-9u-XmV"/>
                             <constraint firstItem="nsq-B8-o6D" firstAttribute="top" secondItem="6nW-au-ntj" secondAttribute="bottom" constant="20" id="IAG-fQ-nCw"/>
-                            <constraint firstItem="zRg-2m-KMP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uso-pp-UYo"/>
-                            <constraint firstItem="glx-kZ-gG4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XIx-ry-PEd"/>
+                            <constraint firstItem="zRg-2m-KMP" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="Uso-pp-UYo"/>
+                            <constraint firstItem="glx-kZ-gG4" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="XIx-ry-PEd"/>
                             <constraint firstItem="wPO-TG-Vof" firstAttribute="top" secondItem="zRg-2m-KMP" secondAttribute="bottom" constant="20" id="aeZ-KS-ilv"/>
                             <constraint firstItem="BFL-V2-LzU" firstAttribute="top" secondItem="wPO-TG-Vof" secondAttribute="bottom" constant="20" id="jeH-T8-TiT"/>
-                            <constraint firstItem="wPO-TG-Vof" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n1V-PQ-Tym"/>
+                            <constraint firstItem="wPO-TG-Vof" firstAttribute="centerX" secondItem="pYg-Sf-why" secondAttribute="centerX" id="n1V-PQ-Tym"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="pYg-Sf-why"/>
                     </view>
                     <navigationItem key="navigationItem" id="AAM-ip-51V"/>
                 </viewController>
@@ -92,7 +90,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kJp-M9-cBe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sbo-1J-gwk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

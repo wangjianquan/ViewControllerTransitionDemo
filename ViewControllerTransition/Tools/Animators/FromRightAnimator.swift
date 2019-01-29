@@ -27,7 +27,7 @@ class FromRightAnimator: UIPresentationController {
         dismmingView.frame = (containerView?.bounds)!
         dismmingView.backgroundColor = UIColor.black
         dismmingView.isOpaque = false
-        dismmingView.autoresizingMask = UIViewAutoresizing.flexibleWidth
+        dismmingView.autoresizingMask = UIView.AutoresizingMask.flexibleWidth
        
         
         //添加手势
@@ -163,7 +163,7 @@ extension FromRightAnimator {
         toViewInitialFrame.size = toViewFinalFrame.size
         toView.frame = toViewFinalFrame
         
-        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.curveLinear, animations: { 
+        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: UIView.AnimationOptions.curveLinear, animations: { 
             toView.frame = toViewFinalFrame
         }) { (_) in
             transitionContext.completeTransition(true)
@@ -184,7 +184,7 @@ extension FromRightAnimator {
         fromViewFinalFrame = fromView.frame.offsetBy(dx: fromView.frame.width, dy: 0);
 
         
-        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.curveLinear, animations: {
+        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: UIView.AnimationOptions.curveLinear, animations: {
             fromView.frame = fromViewFinalFrame
         }) { (_) in
             fromView.removeFromSuperview()
